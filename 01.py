@@ -1,3 +1,12 @@
+import pandas as pd
+from google.colab import drive
+import os
+
+### ============== グーグルドライブ　マウント
+drive.mount('/content/drive')
+
+###################### 100本ノック（機械学習）######################
+
 # CSV 読み込み read_csv
 m_store = pd.read_csv('./drive/MyDrive/100pon_kikai/01/m_store.csv')
 m_store
